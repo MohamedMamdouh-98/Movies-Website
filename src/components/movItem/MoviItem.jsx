@@ -21,8 +21,8 @@ const MoviItem = () => {
     getDetelsMov();
   }, []);
   return (
-    <div className="mt-3 movItem">
-      <Row>
+    <div className="my-3 movItem">
+      <Row className='flex-column-reverse flex-lg-row'>
         <Col md={6}>
           <div className="text-item" style={{ color: "#fff" }}>
             <h2>{movItem.title}</h2>
